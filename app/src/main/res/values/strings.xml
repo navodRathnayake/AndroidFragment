@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">fragmentsTest</string>
+    <string-array name="myData">
+        <item>Select Your Shapes</item>
+        <item>Rect</item>
+        <item>Squre</item>
+        <item>Circle</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

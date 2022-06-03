@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtSqureSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".square">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="68dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="72dp"
+            android:text="Square"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtSqureHeight"
+            android:layout_width="341dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Enter Height"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+        <Button
+            android:id="@+id/txtSqureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calculate"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="295dp" />
+
+        <EditText
+            android:id="@+id/txtSqureArea"
+            android:layout_width="293dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="282dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
